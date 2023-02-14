@@ -10,9 +10,8 @@ body {
 .header {
     background-color: #1F2937;
     display: flex;
-    flex: 1;
     flex-direction: row;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-around;
 }
 
@@ -36,17 +35,17 @@ a {
 }
 
 .hero {
-    flex: 1;
     background-color: #1F2937;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    padding: 48px;
 }
 
 .hero-main {
     font-size: 48px;
     color: #F9FAF8;
-    font-weight: 800;
+    font-weight: 900;
     align-items: center;
     justify-content: center;
 }
@@ -57,14 +56,27 @@ a {
     align-items: center;
 }
 
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10%;
+    flex: 1;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
 .hero-right {
+    display: flex;
+    align-items: center;
     width: 500px;
     height: 300px;
+    justify-content: center;
 }
 
 .hero-right img {
-    display: flex;
-    flex: 1;
+    justify-content: center;
     width: 100%;
     height: auto;
 }
