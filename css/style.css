@@ -43,23 +43,23 @@ a {
     padding: 48px;
 }
 
+.hero-left {
+    margin: 24px;
+}
+
 .hero-main {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
     align-items: center;
     justify-content: center;
+    margin: 0;
 }
 
 .hero-secondary {
     font-size: 18px;
     color: #E5E7EB;
     align-items: center;
-}
-
-.hero-left {
-    margin-right: 20px;
-    margin-left: 20px;
 }
 
 .hero-right {
