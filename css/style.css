@@ -75,6 +75,15 @@ a {
     height: auto;
 }
 
+.signup-button {
+    background: #3882F6;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
 .footer {
     background-color: #1F2937;
     color: #F9FAF8;
