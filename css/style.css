@@ -84,6 +84,16 @@ a {
     font-weight: bold;
 }
 
+.call-to {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 48px;
+    border-radius: 5px;
+}
+
 .footer {
     background-color: #1F2937;
     color: #F9FAF8;
