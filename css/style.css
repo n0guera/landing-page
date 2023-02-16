@@ -86,7 +86,17 @@ a {
 
 .info {
     display: flex;
-    justify-content: center;
+}
+
+.info-images {
+    display: flex;
+    width: 800px;
+    height: 550px;
+}
+
+.info-images img {
+    width: 100%;
+    height: auto;
 }
 
 .quote {
