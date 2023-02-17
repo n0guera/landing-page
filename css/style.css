@@ -93,6 +93,8 @@ a {
 }
 
 .info-images img {
+    border-radius: 8px;
+    border: 2px solid #3882F6;
     width: 100%;
     height: auto;
 }
