@@ -85,13 +85,11 @@ a {
 }
 
 .info {
-    display: flex;
+    text-align: center;
 }
 
 .info-images {
     display: flex;
-    width: 800px;
-    height: 550px;
 }
 
 .info-images img {
